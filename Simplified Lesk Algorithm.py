@@ -98,6 +98,7 @@ word_senses_db = {
     } 
 } 
 
+print("Simplified Lesk Algorithm")
 s=input("ENTER THE SENTENCE: ")
 tw=input("ENTER THE TARGET WORD: ")
 result = simplified_lesk(s, tw, word_senses_db)
