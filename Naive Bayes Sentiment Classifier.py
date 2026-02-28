@@ -47,12 +47,6 @@ class naivebayesclassifier:
                     scores[label]+=math.log(lp)
             else:
                 continue
+                
         
    
-
-
-
-
-
-
-
