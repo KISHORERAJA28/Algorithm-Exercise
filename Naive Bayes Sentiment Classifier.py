@@ -105,6 +105,9 @@ training_data += [
     ("I have no words for how bad this was.", "negative")
 ]
 
+model = naivebayesclassifier()
+model.fit(training_data)
+
                 
         
    
