@@ -103,7 +103,8 @@ training_data += [
     ("Not a masterpiece, just a total disaster.", "negative"),
     ("It was not a success; it was a complete failure.", "negative"),
     ("I have no words for how bad this was.", "negative")
-    
+]
+
                 
         
    
