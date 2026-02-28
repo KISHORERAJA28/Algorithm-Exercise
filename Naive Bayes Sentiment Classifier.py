@@ -109,6 +109,9 @@ model = naivebayesclassifier()
 model.fit(training_data)
 
 # Test
-text=input("Review: ")                
+text=input("Review: ")
+
+prediction = model.predict(text)
+print(f"Prediction: {prediction}\n")
         
    
