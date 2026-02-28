@@ -108,6 +108,7 @@ training_data += [
 model = naivebayesclassifier()
 model.fit(training_data)
 
-                
+# Test
+text=input("Review: ")                
         
    
